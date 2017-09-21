@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Fetch from 'node-fetch'
 
-
 export default class SearchBar extends React.Component {
   constructor(props) {
     super(props)
@@ -11,7 +10,6 @@ export default class SearchBar extends React.Component {
     }
     this.submitCoin = this.submitCoin.bind(this)
   }
-
   submitCoin(e) {
     e.preventDefault()
     e.target.reset()

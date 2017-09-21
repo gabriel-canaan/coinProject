@@ -3,11 +3,9 @@ import {Link} from 'react-router-dom'
 import {VictoryBar, VictoryChart, VictoryAxis, VictoryTheme,
     VictoryStack, VictoryLine} from 'victory'
 import moment from 'moment'
-
 import GraphTitle from './Graph_title'
 
 export default function Graph(props) {
-
   let data = props.data
   return (
     <div>
@@ -20,7 +18,7 @@ export default function Graph(props) {
               <VictoryLine data={data[coinType]} x="time" y="open"/>
             </VictoryChart>
           </Link>
-        </div>  
+        </div>
       })}
     </div>
   )

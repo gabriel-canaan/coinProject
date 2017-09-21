@@ -1,6 +1,5 @@
 global.fetch = require('node-fetch')
 const cc = require('cryptocompare')
-
 const express = require('express')
 const router = express.Router()
 
@@ -11,7 +10,6 @@ router.get('/coinPrice/:coin', (req, res) => {
     console.log(data.length);
     res.json(data)
   }).catch(console.error)
-
 })
 
 module.exports = router

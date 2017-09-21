@@ -9,9 +9,7 @@ const server = express()
 
 server.use(bodyParser.json())
 server.use(express.static(path.join(__dirname, '../public')))
-
 server.use('/v1', routes)
-
 const rule = new schedule.RecurrenceRule()
 rule.minute = 31
 

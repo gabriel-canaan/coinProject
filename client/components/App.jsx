@@ -4,7 +4,6 @@ import {HashRouter as Router, Route} from 'react-router-dom'
 import Fetch from 'node-fetch'
 import request from 'superagent'
 import moment from 'moment'
-
 import Home from './Home'
 import Header from './Header'
 import SearchBar from './Search_bar'
@@ -38,7 +37,6 @@ export default class App extends React.Component {
     })
   }
   render() {
-    // console.log(this.state);
     let data = this.state.data
     return (
       <div>

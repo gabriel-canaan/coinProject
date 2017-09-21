@@ -7,6 +7,6 @@ The data is coming from cryptocompare's api and nodule, using "Victory" to displ
 A work in progress, noticably CSS free and an issue displaying the x axis time values in convienient divisions. 
 
 
-Clone the repo
-run npm i
+Clone the repo,
+run npm i,
 npm start

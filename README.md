@@ -1,15 +1,12 @@
-# A starter webpack project for React
+CoinProject is the beginings of an app used to track cryptocurriencies in real time.
 
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider this approach:
+As a user I want to input the Abbreviation for a cryptocurriency's token ETH, DOGE,LITE ect. and have the search return 
+display the value vs USD over a 24h period.
+The data is coming from cryptocompare's api and nodule, using "Victory" to display in line graph form and 'moment' to convert unix time into standard 24h
 
-* Fork this repo
-* Rename your repo according to the app you're building
+A work in progress, noticably CSS free and an issue displaying the x axis time values in convienient divisions. 
 
-```sh
-git clone https://github.com/dev-academy-challenges/[your-app].git
-cd [your-app] && npm install
-```
 
-To start the development server with a watcher that refreshes your browser, run `npm start`. The assets built by webpack are placed in `server/static`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
-
-Additional components should be placed in `client/components`.
+Clone the repo
+run npm i
+npm start
